@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { initializePoseEngine, calculateAngle } from './core/poseEngine';
 import { PoseLandmarker, DrawingUtils } from '@mediapipe/tasks-vision';
 import { Activity, Camera, RefreshCw } from 'lucide-react';
